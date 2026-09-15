@@ -51,7 +51,8 @@ opencode \
 pnpm \
 starship \
 yt-dlp \
-fuse-t
+fuse-t \
+openjdk
 ```
 
 
@@ -61,17 +62,13 @@ fuse-t
 ```
 brew install --cask \
 anydesk \
-bluestacks \
-chromium \
+google-chrome \
 eqmac \
-freetube \
 ghostty \
-grandperspective \
 helium-browser \
 localsend \
 minecraft \
 obsidian \
-onyx \
 openvpn-connect \
 protonvpn \
 transmission \
