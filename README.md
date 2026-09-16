@@ -146,8 +146,6 @@ defaults write NSGlobalDomain WebKitDeveloperExtras -bool true
 # Show the ~/Library folder
 chflags nohidden ~/Library
 
-# Show absolute path in finder's title bar
-defaults write com.apple.finder _FXShowPosixPathInTitle -bool YES
 
 # Show build duration for Xcode
 defaults write com.apple.dt.Xcode ShowBuildOperationDuration YES
