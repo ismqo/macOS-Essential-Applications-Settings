@@ -40,7 +40,6 @@ brew analytics off
 ## Install CLI Applications
 
 ```
-
 brew install \
 git \
 lazygit \
