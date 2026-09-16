@@ -182,6 +182,17 @@ killall SystemUIServer
 
 ## Others
 
+
+#### Configure Starship prompt
+
+```
+cat >> ~/.zshrc <<'EOF'
+
+# Initialize Starship prompt
+eval "$(starship init zsh)"
+EOF
+```
+
 #### Configure Ghostty
 
 ```
@@ -221,38 +232,9 @@ brew install --cask font-hack-nerd-font
 ```
 
 
-
-## Setup Hostname (Be sure to change hostname to yours)
-
-```
-sudo scutil --set HostName emp
-```
-
 ## CapsLockNoDelay
 
 ```
 hidutil property --set '{"CapsLockDelayOverride":0}'
 ```
 
-## Block & Re-Enable updates to macOS Catalina 10.15
-
-```
-# For Block
-sudo softwareupdate --ignore "macOS Catalina"
-```
-```
-# Remove Update Notification
-defaults delete com.apple.preferences.softwareupdate LatestMajorOSSeenByUserBundleIdentifier && softwareupdate --list
-```
-
-```
-# For Re-Enable
-sudo softwareupdate --reset-ignored
-```
-
-## Disable Gatekeeper in macOS Sierra or later
-
-⚠️⚠️⚠️ Proceed at your own risk ⚠️⚠️⚠️
-```
-sudo spctl --master-disable
-```
