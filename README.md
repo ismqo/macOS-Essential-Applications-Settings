@@ -40,7 +40,6 @@ brew analytics off
 ## Install CLI Applications
 
 ```
-brew tap macos-fuse-t/cask
 
 brew install \
 git \
