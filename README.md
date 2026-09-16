@@ -90,6 +90,12 @@ My Favorite Applications
 |1352778147 |Bitwarden  |
 
 
+## Install JAVA
+
+```
+https://www.java.com/en/download/
+```
+
 
 ## System Settings
 
