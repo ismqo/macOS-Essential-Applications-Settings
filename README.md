@@ -51,8 +51,7 @@ opencode \
 pnpm \
 starship \
 yt-dlp \
-fuse-t \
-openjdk
+fuse-t 
 ```
 
 
@@ -74,7 +73,8 @@ protonvpn \
 transmission \
 visual-studio-code \
 vlc \
-vorssaint
+vorssaint \
+cask-hub
 ```
 
 
