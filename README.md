@@ -51,8 +51,7 @@ node@20 \
 opencode \
 pnpm \
 starship \
-yt-dlp \
-fuse-t
+yt-dlp
 ```
 
 
@@ -77,17 +76,6 @@ vlc \
 vorssaint \
 cask-hub \
 yubico-authenticator 
-```
-
-
-
-## Install GUI Applications
-
-#### This area needs to type password manually and change system preferences
-
-```
-brew install --cask \
-veracrypt-fuse-t
 ```
 
 
