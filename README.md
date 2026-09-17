@@ -77,8 +77,7 @@ vlc \
 vorssaint \
 cask-hub \
 yubico-authenticator \
-fuse-t \
-veracrypt-fuse-t
+fuse-t 
 ```
 
 
