@@ -76,8 +76,7 @@ visual-studio-code \
 vlc \
 vorssaint \
 cask-hub \
-yubico-authenticator \
-fuse-t 
+yubico-authenticator 
 ```
 
 
