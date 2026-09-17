@@ -40,6 +40,9 @@ brew analytics off
 ## Install CLI Applications
 
 ```
+brew tap macos-fuse-t/cask
+
+
 brew install \
 git \
 lazygit \
@@ -48,7 +51,8 @@ node@20 \
 opencode \
 pnpm \
 starship \
-yt-dlp 
+yt-dlp \
+fuse-t
 ```
 
 
@@ -76,6 +80,18 @@ yubico-authenticator \
 fuse-t \
 veracrypt-fuse-t
 ```
+
+
+
+## Install GUI Applications
+
+#### This area needs to type password manually and change system preferences
+
+```
+brew install --cask \
+veracrypt-fuse-t
+```
+
 
 
 ## Install MAS Applications
