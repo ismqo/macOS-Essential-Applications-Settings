@@ -71,7 +71,10 @@ transmission \
 visual-studio-code \
 vlc \
 vorssaint \
-cask-hub
+cask-hub \
+yubico-authenticator \
+fuse-t \
+veracrypt-fuse-t
 ```
 
 
