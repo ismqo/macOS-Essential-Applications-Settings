@@ -28,6 +28,9 @@ cask "visual-studio-code"
 cask "vlc"
 cask "vorssaint"
 cask "cask-hub"
+cask "yubico-authenticator"
+cask "fuse-t"
+cask "veracrypt-fuse-t"
 
 # Fonts
 cask "font-hack-nerd-font"
