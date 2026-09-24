@@ -64,7 +64,7 @@ anydesk \
 google-chrome \
 eqmac \
 ghostty \
-helium-browser \
+firefox \
 localsend \
 minecraft \
 obsidian \
@@ -174,6 +174,13 @@ killall SystemUIServer
 
 
 ## Others
+
+
+#### Configure Betterfox
+
+```
+https://github.com/yokoffing/BetterFox
+```
 
 
 #### Configure Starship prompt
