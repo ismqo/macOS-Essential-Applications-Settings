@@ -192,7 +192,7 @@ EOF
 mkdir -p ~/.config/ghostty
 cat > ~/.config/ghostty/config << 'EOF'
 # Typography
-font-family = Hack Nerd Font
+font-family = SF Mono
 font-size = 13
 font-thicken = true
 adjust-cell-height = 1
@@ -221,9 +221,8 @@ EOF
 #### Install Fonts
 
 ```
-brew install --cask font-hack-nerd-font
+https://developer.apple.com/fonts/
 ```
-
 
 ## CapsLockNoDelay
 
