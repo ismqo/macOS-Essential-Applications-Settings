@@ -63,36 +63,19 @@ brew install --cask \
 anydesk \
 google-chrome \
 eqmac \
-ghostty \
-firefox \
+zen \
 localsend \
 minecraft \
 obsidian \
 openvpn-connect \
 protonvpn \
 transmission \
-visual-studio-code \
+cursor \
 vlc \
 vorssaint \
 cask-hub \
 yubico-authenticator 
 ```
-
-
-
-## Install MAS Applications
-
-#### Sign into the Mac App Store GUI app manually First!
-
-```
-mas install 1352778147
-```
-
-My Favorite Applications
-
-| APP_ID    | Name      |
-| :-------- | :-------- |
-|1352778147 |Bitwarden  |
 
 
 ## Install JAVA
@@ -190,36 +173,6 @@ cat >> ~/.zshrc <<'EOF'
 
 # Initialize Starship prompt
 eval "$(starship init zsh)"
-EOF
-```
-
-#### Configure Ghostty
-
-```
-mkdir -p ~/.config/ghostty
-cat > ~/.config/ghostty/config << 'EOF'
-# Typography
-font-family = SF Mono
-font-size = 13
-font-thicken = true
-adjust-cell-height = 1
-
-# Window & Appearance
-window-padding-x = 8
-window-padding-y = 8
-background-opacity = 0.5
-background-blur=macos-glass-regular
-theme= Xcode Dark
-
-# Behavior
-mouse-hide-while-typing = true
-cursor-style = block
-cursor-style-blink = false
-scrollback-limit = 100000
-
-# Clipboard
-clipboard-read = allow
-clipboard-write = allow
 EOF
 ```
 
