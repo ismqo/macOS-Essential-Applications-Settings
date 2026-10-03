@@ -40,9 +40,6 @@ brew analytics off
 ## Install CLI Applications
 
 ```
-brew tap macos-fuse-t/cask
-
-
 brew install \
 git \
 lazygit \
@@ -71,12 +68,35 @@ openvpn-connect \
 protonvpn \
 transmission \
 cursor \
+chatgpt \
 vlc \
 vorssaint \
-cask-hub \
+caskhub \
 yubico-authenticator 
 ```
 
+
+## Install Bitwarden and Proton Auth
+
+```
+mas install  \
+anydesk \
+google-chrome \
+eqmac \
+zen \
+localsend \
+minecraft \
+obsidian \
+openvpn-connect \
+protonvpn \
+transmission \
+cursor \
+chatgpt \
+vlc \
+vorssaint \
+caskhub \
+yubico-authenticator 
+```
 
 ## Install JAVA
 
