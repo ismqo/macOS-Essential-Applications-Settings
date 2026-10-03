@@ -76,26 +76,26 @@ yubico-authenticator
 ```
 
 
-## Install Bitwarden and Proton Auth
+## Install MAS Applications
+
+#### Sign into the Mac App Store GUI app manually First!
 
 ```
-mas install  \
-anydesk \
-google-chrome \
-eqmac \
-zen \
-localsend \
-minecraft \
-obsidian \
-openvpn-connect \
-protonvpn \
-transmission \
-cursor \
-chatgpt \
-vlc \
-vorssaint \
-caskhub \
-yubico-authenticator 
+mas install 1352778147
+```
+
+My Favorite Applications
+
+| APP_ID    | Name      |
+| :-------- | :-------- |
+|1352778147 |Bitwarden  |
+
+
+
+Proton Authenticator
+
+```
+https://apps.apple.com/es/app/proton-authenticator/id6741758667?platform=mac
 ```
 
 ## Install JAVA
