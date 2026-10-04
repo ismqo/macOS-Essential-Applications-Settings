@@ -72,7 +72,10 @@ chatgpt \
 vlc \
 vorssaint \
 caskhub \
-yubico-authenticator 
+yubico-authenticator \
+font-hack-nerd-font \
+lulu \
+tor-browser
 ```
 
 
@@ -198,7 +201,7 @@ EOF
 
 
 
-#### Install Fonts
+#### Install Apple Fonts
 
 ```
 https://developer.apple.com/fonts/
