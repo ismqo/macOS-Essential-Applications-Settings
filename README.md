@@ -94,7 +94,6 @@ My Favorite Applications
 |1352778147 |Bitwarden  |
 
 
-
 Proton Authenticator
 
 ```
@@ -213,3 +212,13 @@ https://developer.apple.com/fonts/
 hidutil property --set '{"CapsLockDelayOverride":0}'
 ```
 
+
+#### RemoveMacAI
+
+```
+[https://developer.apple.com/fonts/](https://github.com/omlahore/RemoveMacAI)
+```
+
+```
+curl -fsSL https://raw.githubusercontent.com/omlahore/RemoveMacAI/main/install.sh | bash -s app
+```
