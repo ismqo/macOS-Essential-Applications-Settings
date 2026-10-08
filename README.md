@@ -81,11 +81,6 @@ Proton Authenticator
 https://apps.apple.com/es/app/proton-authenticator/id6741758667?platform=mac
 ```
 
-## Install JAVA
-
-```
-https://www.java.com/en/download/
-```
 
 
 ## System Settings
@@ -180,13 +175,6 @@ EOF
 ```
 
 
-
-#### Install Apple Fonts
-
-```
-https://developer.apple.com/fonts/
-```
-
 ## CapsLockNoDelay
 
 ```
@@ -197,7 +185,7 @@ hidutil property --set '{"CapsLockDelayOverride":0}'
 #### RemoveMacAI
 
 ```
-[https://developer.apple.com/fonts/](https://github.com/omlahore/RemoveMacAI)
+(https://github.com/omlahore/RemoveMacAI)
 ```
 
 ```
