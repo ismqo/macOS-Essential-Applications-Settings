@@ -2,15 +2,6 @@
 
 
 
-Here is my macOS auto install script.
-
-⚠️⚠️⚠️ 
-
-Base on personal experience, author isn't responsible for any data lost or damage, proceed at your own risk.
-
-⚠️⚠️⚠️
-
-
 ## Install essential package manager & turn off analytics
 
 #### This action needs to typing password manually
@@ -25,16 +16,6 @@ brew analytics off
 
 ```
 
-
-## Install Rosetta 2 via Command Line on Apple Silicon Mac
-
-#### This action needs to typing password manually
-  
-```
-# Skip the license agreement by providing an additional flag
-/usr/sbin/softwareupdate --install-rosetta --agree-to-license
-
-```
 
 
 ## Install CLI Applications
