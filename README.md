@@ -185,5 +185,5 @@ hidutil property --set '{"CapsLockDelayOverride":0}'
 #### Apple SF and NY fonts
 
 ```
-(https://developer.apple.com/fonts/
+https://developer.apple.com/fonts/
 ```
