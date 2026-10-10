@@ -54,7 +54,6 @@ vlc \
 vorssaint \
 caskhub \
 yubico-authenticator \
-font-hack-nerd-font \
 lulu \
 tor-browser \
 grandperspective
@@ -183,12 +182,8 @@ hidutil property --set '{"CapsLockDelayOverride":0}'
 ```
 
 
-#### RemoveMacAI
+#### Apple SF and NY fonts
 
 ```
-(https://github.com/omlahore/RemoveMacAI)
-```
-
-```
-curl -fsSL https://raw.githubusercontent.com/omlahore/RemoveMacAI/main/install.sh | bash -s app
+(https://developer.apple.com/fonts/
 ```
