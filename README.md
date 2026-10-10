@@ -75,7 +75,7 @@ My Favorite Applications
 |1352778147 |Bitwarden  |
 
 
-Proton Authenticator
+### Proton Authenticator
 
 ```
 https://apps.apple.com/es/app/proton-authenticator/id6741758667?platform=mac
@@ -92,14 +92,8 @@ defaults write NSGlobalDomain InitialKeyRepeat -int 12
 # Set a blazingly fast keyboard repeat rate
 defaults write NSGlobalDomain KeyRepeat -int 2
 
-# Disable window animations ("new window" scale effect)
-defaults write NSGlobalDomain NSAutomaticWindowAnimationsEnabled -bool false
-
 # Use plain text mode for new TextEdit documents
 defaults write com.apple.TextEdit RichText -int 0
-
-# Expand save panel by default
-defaults write NSGlobalDomain NSNavPanelExpandedStateForSaveMode -bool true
 
 # Check for software updates daily, not just once per week
 defaults write com.apple.SoftwareUpdate ScheduleFrequency -int 1
@@ -110,44 +104,11 @@ defaults write com.apple.finder ShowPathbar -bool true
 # Show Status bar in Finder
 defaults write com.apple.finder ShowStatusBar -bool true
 
-# Show icons for hard drives, servers, and removable media on the desktop
-defaults write com.apple.finder.plist ShowExternalHardDrivesOnDesktop 1 && \
-defaults write com.apple.finder.plist ShowHardDrivesOnDesktop 1 && \
-defaults write com.apple.finder.plist ShowMountedServersOnDesktop 1 && \
-defaults write com.apple.finder.plist ShowRemovableMediaOnDesktop 1
-
-# Hide tags in Finder sidebar
-defaults write com.apple.finder.plist ShowRecentTags 0
-
 # Avoid creating .DS_Store files on network volumes
 defaults write com.apple.desktopservices DSDontWriteNetworkStores -bool true
 
-# Enable the Develop menu and the Web Inspector in Safari
-defaults write com.apple.Safari IncludeInternalDebugMenu -bool true && \
-defaults write com.apple.Safari IncludeDevelopMenu -bool true && \
-defaults write com.apple.Safari WebKitDeveloperExtrasEnabledPreferenceKey -bool true && \
-defaults write com.apple.Safari com.apple.Safari.ContentPageGroupIdentifier.WebKit2DeveloperExtrasEnabled -bool true && \
-defaults write NSGlobalDomain WebKitDeveloperExtras -bool true
-
 # Show the ~/Library folder
 chflags nohidden ~/Library
-
-
-# Show build duration for Xcode
-defaults write com.apple.dt.Xcode ShowBuildOperationDuration YES
-
-# Show system icon in Apple title bar
-defaults write com.apple.systemuiserver menuExtras -array \
-"/System/Library/CoreServices/Menu Extras/Bluetooth.menu" \
-"/System/Library/CoreServices/Menu Extras/Clock.menu" \
-"/System/Library/CoreServices/Menu Extras/AirPort.menu" \
-"/System/Library/CoreServices/Menu Extras/Battery.menu" \
-"/System/Library/CoreServices/Menu Extras/TimeMachine.menu" \
-"/System/Library/CoreServices/Menu Extras/Displays.menu" \
-"/System/Library/CoreServices/Menu Extras/VPN.menu" \
-"/System/Library/CoreServices/Menu Extras/User.menu" \
-"/System/Library/CoreServices/Menu Extras/WWAN.menu" \
-"/System/Library/CoreServices/Menu Extras/Volume.menu"
 
 # Restart System UI Service
 killall SystemUIServer
