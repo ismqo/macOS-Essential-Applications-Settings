@@ -56,7 +56,8 @@ caskhub \
 yubico-authenticator \
 font-hack-nerd-font \
 lulu \
-tor-browser
+tor-browser \
+grandperspective
 ```
 
 
